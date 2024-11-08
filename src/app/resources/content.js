@@ -143,7 +143,7 @@ const about = {
             {
                 company: 'Lost Case',
                 timeframe: 'October 2024 - Present',
-                role: 'Game Manager, Story Writing, Game Design',
+                role: 'Project Le, Story Writing, Game Design',
                 achievements: [
                     <>Lost Case is an atmospheric horror game that follows a seasoned detective who takes on an unsolved case buried for years. The detective uncovers a series of mysterious disappearances linked to secret experiments that unleashed feral creatures lurking within the forest. Players embark on an investigative journey, piecing together clues from remains, journals, and abandoned belongings to solve the mystery and survive encounters with these unnatural beings.</>,
                     <>In this projek I served as the Project leader, I coordinated project development, ensuring each phase aligned with the game’s vision and guiding our team toward a cohesive final product. In Story Writing, I crafted a compelling narrative, including immersive monologues, dialogue, and backstory, to deepen the player's connection to the horror and mystery surrounding the case. As the Game Designer, I designed levels, gameplay flow, and strategically placed horror elements to build tension and enrich the player experience.</>
