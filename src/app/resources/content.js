@@ -65,7 +65,7 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>I am Muhammad Zafran Al Majid, a passionate Game Developer and Programmer with expertise in Unity, C#, and Unreal Engine, and a growing interest in visual effects. With experience across projects. I have honed my skills in managing game mechanics, AI, and animation while taking on roles such as Game Manager, and Story Writer. Currently, I am expanding my knowledge in visual effects to enhance gameplay immersion, aiming to develop skills as a Visual Effect Artist. I am driven to push creative boundaries in both game development and visual effects, creating engaging and impactful experiences for players.</>
+        description: <>I am Muhammad Zafran Al Majid, a Game Developer and Programmer skilled in Unity, C#, and Unreal Engine. I have a solid foundation in game development, across projects. Currently, while my primary focus remains on game development and programming, I am also expanding my expertise in visual effects.</>
     },
     work: {
         display: true, // set to false to hide this section
@@ -116,9 +116,9 @@ const about = {
                 ],
                 images: [ 
                     {
-                    src: '/images/projects/project-01/cover-03.jpg',
+                    src: '/images/projects/project-01/Movie_03.gif',
                     alt: 'Bouncy Ball',
-                    width: 9,
+                    width: 11,
                     height: 20
                     }
                 ]
@@ -133,7 +133,7 @@ const about = {
                 ],
                 images: [ 
                     {
-                    src: '/images/projects/project-01/cover-04.jpg',
+                    src: '/images/projects/project-01/Movie_04.gif',
                     alt: 'Chess Empire',
                     width: 11,
                     height: 20
