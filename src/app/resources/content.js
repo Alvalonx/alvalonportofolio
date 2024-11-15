@@ -76,12 +76,11 @@ const about = {
                 timeframe: 'January 2024 - January 2024',
                 role: 'Game Programmer',
                 achievements: [
-                    <>Guess Strange Animal is an interactive guessing game where players are invited to answer several questions to guess which animal is displayed at each level.</>,
-                    <>In this project, I served as the Game Programmer, responsible for managing and developing core game mechanics to ensure smooth and engaging gameplay. My role included designing and implementing game logic, refining user interactions, and optimizing the game's performance. I focused on creating intuitive mechanics that enhance the player experience, making each level enjoyable and rewarding as players progress.</>
+                    <>Guess Strange Animal is an interactive guessing game where players are invited to answer several questions to guess which animal is displayed at each level.</>
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
                     {
-                        src: '/images/projects/project-01/cover-01.jpg',
+                        src: '/images/projects/project-01/guess-strange-animal.jpg',
                         alt: 'Guess Strange Animal',
                         width: 9,
                         height: 20
@@ -93,13 +92,11 @@ const about = {
                 timeframe: 'March 2024 - May 2024',
                 role: 'Front-End Programmer, Project Leader',
                 achievements: [
-                    <>Garuda Race is an innovative racing game that delivers an exhilarating and visually captivating experience, blending fast-paced gameplay with high-quality design elements. In this project, I held dual responsibilities as the Front-End Programmer and Project Leader.</>,
-                    <>As the Front-End Programmer, I was tasked with importing assets from Figma, organizing and structuring the game's user interface, and managing the in-game shop system. This role required attention to detail and proficiency in implementing responsive and dynamic UI/UX elements to enhance player interaction and engagement.</>,
-                    <>As the Project Leader, I led a team of developers through all stages of the project lifecycle—from initial conceptualization and planning to development, quality assurance, and deployment. My leadership approach emphasized effective communication, strict adherence to project timelines, and a commitment to achieving high standards of quality.</>
+                    <>Garuda Race is an innovative racing game that delivers an exhilarating and visually captivating experience, blending fast-paced gameplay with high-quality design elements. In this project, I held dual responsibilities as the Front-End Programmer and Project Leader.</>    
                 ],
                 images: [ 
                     {
-                    src: '/images/projects/project-01/cover-02.jpg',
+                    src: '/images/projects/project-01/garuda-race.jpg',
                     alt: 'Garuda Race',
                     width: 16,
                     height: 9
@@ -111,12 +108,18 @@ const about = {
                 timeframe: 'June 2024 - August 2024',
                 role: 'Game Programmer',
                 achievements: [
-                    <>Bounce Ball is an engaging game that combines the mechanics of ortographic maze with the strategic element of pathfinding. Featuring an orthographic camera perspective, the game challenges players to navigate a bouncing ball through intricate levels using carefully calculated paths.</>,
-                    <>In this project, I served as the Game Programmer, responsible for managing the game mechanics and implementing AI elements to enhance the gameplay experience. My role included designing and refining the pathfinding algorithms, programming responsive ball physics, and integrating AI-driven behaviors to create dynamic and challenging obstacles. This involved balancing gameplay difficulty to maintain an engaging experience for players as they progress through increasingly intricate levels.</>
+                    <>Bounce Ball is an engaging game that combines the mechanics of ortographic maze with the strategic element of pathfinding. Featuring an orthographic camera perspective, the game challenges players to navigate a bouncing ball through intricate levels using carefully calculated paths.</>
+                    
                 ],
                 images: [ 
                     {
                     src: '/images/projects/project-01/Movie_03.gif',
+                    alt: 'Bouncy Ball',
+                    width: 11,
+                    height: 20
+                    },
+                    {
+                    src: '/images/projects/project-01/bouncy-ball.jpg',
                     alt: 'Bouncy Ball',
                     width: 11,
                     height: 20
@@ -128,8 +131,7 @@ const about = {
                 timeframe: 'September 2024 - October 2024',
                 role: 'Game Programmer',
                 achievements: [
-                    <>Chess Empire is an innovative game that combines classic chess mechanics with an exciting shooting mechanism. In this game, players are challenged to navigate the king piece strategically while shooting at opponents, blending tactical thinking with fast-paced action.</>,
-                    <>In this project, I served as the Game Programmer responsible for managing and implementing the animations within the gameplay. My role focused on creating smooth and engaging animations that bring the chess pieces to life, enhancing the overall experience and ensuring that movements and shooting actions feel dynamic and responsive. This involved developing and optimizing animations that maintain both the aesthetic appeal and performance quality of the game.</>
+                    <>Chess Empire is an innovative game that combines classic chess mechanics with an exciting shooting mechanism. In this game, players are challenged to navigate the king piece strategically while shooting at opponents, blending tactical thinking with fast-paced action.</>
                 ],
                 images: [ 
                     {
@@ -137,6 +139,12 @@ const about = {
                     alt: 'Chess Empire',
                     width: 11,
                     height: 20
+                    },
+                    {
+                        src: '/images/projects/project-01/chess-empire.jpg',
+                        alt: 'Chess Empire',
+                        width: 11,
+                        height: 20
                     }
                 ]
             },
@@ -145,15 +153,21 @@ const about = {
                 timeframe: 'October 2024 - Present',
                 role: 'Project Le, Story Writing, Game Design',
                 achievements: [
-                    <>Lost Case is an atmospheric horror game that follows a seasoned detective who takes on an unsolved case buried for years. The detective uncovers a series of mysterious disappearances linked to secret experiments that unleashed feral creatures lurking within the forest. Players embark on an investigative journey, piecing together clues from remains, journals, and abandoned belongings to solve the mystery and survive encounters with these unnatural beings.</>,
-                    <>In this projek I served as the Project leader, I coordinated project development, ensuring each phase aligned with the game’s vision and guiding our team toward a cohesive final product. In Story Writing, I crafted a compelling narrative, including immersive monologues, dialogue, and backstory, to deepen the player's connection to the horror and mystery surrounding the case. As the Game Designer, I designed levels, gameplay flow, and strategically placed horror elements to build tension and enrich the player experience.</>
+                    <>Lost Case is an atmospheric horror game that follows a seasoned detective who takes on an unsolved case buried for years. The detective uncovers a series of mysterious disappearances linked to secret experiments that unleashed feral creatures lurking within the forest. Players embark on an investigative journey, piecing together clues from remains, journals, and abandoned belongings to solve the mystery and survive encounters with these unnatural beings.</>
                 ],
                 images: [ 
                     {
-                    src: '/images/projects/project-01/cover-05.jpg',
+                    src: '/images/projects/project-01/lost-case.gif',
                     alt: 'Lost Case',
-                    width: 11,
-                    height: 20
+                    width: 16,
+                    height: 9
+                    },              
+                
+                    {
+                    src: '/images/projects/project-01/lost-case.jpg',
+                    alt: 'Lost Case',
+                    width: 16,
+                    height: 9
                     }
                 ]
             }
@@ -174,34 +188,40 @@ const about = {
         ]
     },
     technical: {
-        display: false, // set to false to hide this section
+        display: true, // set to false to hide this section
         title: 'Technical skills',
         skills: [
             {
-                title: 'Figma',
-                description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+                title: 'Unity',
+                description: <>Proficient in using Unity for developing interactive and responsive game environments. Experienced in building and optimizing game mechanics and UI.</>,
                 images: [
                     {
-                        src: '/images/projects/project-01/cover-02.jpg',
-                        alt: 'Project image',
+                        src: '/images/projects/project-01/unity.jpg',
+                        alt: 'unity',
                         width: 16,
                         height: 9
-                    },
+                    }
+                ]
+            },
+            {
+                title: 'C#',
+                description: <>Knowledgeable in C# for implementing game logic and features.</>,
+                images: [
                     {
-                        src: '/images/projects/project-01/cover-03.jpg',
-                        alt: 'Project image',
-                        width: 16,
+                        src: '/images/projects/project-01/c-sharp.png',
+                        alt: 'C#',
+                        width: 9,
                         height: 9
                     },
                 ]
             },
             {
-                title: 'Next.js',
-                description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+                title: 'Unreal Engine',
+                description: <>Skilled in Unreal Engine for creating high-quality visuals and implementing gameplay features, with experience in Blueprint scripting.</>,
                 images: [
                     {
-                        src: '/images/projects/project-01/cover-04.jpg',
-                        alt: 'Project image',
+                        src: '/images/projects/project-01/unreal.jpg',
+                        alt: 'Unreal Engine',
                         width: 16,
                         height: 9
                     },
