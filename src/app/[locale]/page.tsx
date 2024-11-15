@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Heading, Flex, Text, Button,  Avatar, RevealFx } from '@/once-ui/components';
+import { Heading, Flex, Text, Button, Avatar, RevealFx, IconButton } from '@/once-ui/components';
 import { Projects } from '@/components/work/Projects';
 
 import { baseURL, routes, renderContent } from '@/app/resources'; 
@@ -47,7 +47,7 @@ export default function Home(
 ) {
 	unstable_setRequestLocale(locale);
 	const t = useTranslations();
-	const { home, about, person, newsletter } = renderContent(t);
+	const { home, about, person, newsletter, social } = renderContent(t);
 	return (
 		<Flex
 			maxWidth="m" fillWidth gap="xl"
@@ -116,6 +116,21 @@ export default function Home(
 								</Flex>
 							</Button>
 						</RevealFx>
+						{/* Add Social Icons Below the Button */}
+						<Flex gap="8">
+							{social.map((item) => (
+								item.link && (
+									<IconButton
+										key={item.name}
+										href={item.link}
+										icon={item.icon}
+										tooltip={item.name}
+										size="s"
+										variant="ghost"
+									/>
+								)
+							))}
+						</Flex>
 					</Flex>
 				
 			</Flex>
