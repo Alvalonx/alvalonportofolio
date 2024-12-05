@@ -76,7 +76,9 @@ const about = {
                 timeframe: 'January 2024 - January 2024',
                 role: 'Game Programmer',
                 achievements: [
-                    <>Guess Strange Animal is an interactive guessing game where players are invited to answer several questions to guess which animal is displayed at each level.</>
+                    <>Guess Strange Animal is an interactive guessing game where players are invited to answer several questions to guess which animal is displayed at each level.</>,
+                    <>https://alvalonstudio.itch.io/guess-strange-animal</>
+
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
                     {
